@@ -6,7 +6,7 @@ const StayProductive = () => {
          <div className="container mx-auto px-4">
             <div className="grid sm:grid-cols-2 items-center gap-10 w-[1100px] max-w-full mx-auto">
                <motion.img
-                  transition={{delay:0.1 , duration: 2 }}
+                  transition={{ delay: 0.1, duration: 1 }}
                   initial={{ opacity: 0, x: -100 }}
                   whileInView={{ opacity: 1, x: 0 }}
                   src="/images/illustration-stay-productive.png"
@@ -14,7 +14,7 @@ const StayProductive = () => {
                   className="max-sm:w-[500px] max-sm:mx-auto"
                />
                <motion.div
-                  transition={{delay:0.1 ,duration: 1.5 }}
+                  transition={{ delay: 0.1, duration: 1 }}
                   initial={{ opacity: 0, x: -100 }}
                   whileInView={{ opacity: 1, x: 0 }}
                   className="text max-sm:px-[30px]">
